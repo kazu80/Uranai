@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC10AC3217656CA600682398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC10AC3117656CA600682398 /* UIKit.framework */; };
+		FC10AC3417656CA600682398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC10AC3317656CA600682398 /* Foundation.framework */; };
+		FC10AC3617656CA600682398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC10AC3517656CA600682398 /* CoreGraphics.framework */; };
+		FC10AC3C17656CA600682398 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC3A17656CA600682398 /* InfoPlist.strings */; };
+		FC10AC3E17656CA600682398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10AC3D17656CA600682398 /* main.m */; };
+		FC10AC4217656CA600682398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10AC4117656CA600682398 /* AppDelegate.m */; };
+		FC10AC4417656CA600682398 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC4317656CA600682398 /* Default.png */; };
+		FC10AC4617656CA600682398 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC4517656CA600682398 /* Default@2x.png */; };
+		FC10AC4817656CA600682398 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC4717656CA600682398 /* Default-568h@2x.png */; };
+		FC10AC4B17656CA600682398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10AC4A17656CA600682398 /* ViewController.m */; };
+		FC10AC4E17656CA600682398 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC4C17656CA600682398 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC10AC2E17656CA600682398 /* progUranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = progUranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC10AC3117656CA600682398 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC10AC3317656CA600682398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC10AC3517656CA600682398 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC10AC3917656CA600682398 /* progUranai-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "progUranai-Info.plist"; sourceTree = "<group>"; };
+		FC10AC3B17656CA600682398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC10AC3D17656CA600682398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC10AC3F17656CA600682398 /* progUranai-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "progUranai-Prefix.pch"; sourceTree = "<group>"; };
+		FC10AC4017656CA600682398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC10AC4117656CA600682398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC10AC4317656CA600682398 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC10AC4517656CA600682398 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC10AC4717656CA600682398 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC10AC4917656CA600682398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC10AC4A17656CA600682398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC10AC4D17656CA600682398 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC10AC2B17656CA600682398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC10AC3217656CA600682398 /* UIKit.framework in Frameworks */,
+				FC10AC3417656CA600682398 /* Foundation.framework in Frameworks */,
+				FC10AC3617656CA600682398 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC10AC2517656CA500682398 = {
+			isa = PBXGroup;
+			children = (
+				FC10AC3717656CA600682398 /* progUranai */,
+				FC10AC3017656CA600682398 /* Frameworks */,
+				FC10AC2F17656CA600682398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC10AC2F17656CA600682398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC10AC2E17656CA600682398 /* progUranai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC10AC3017656CA600682398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC10AC3117656CA600682398 /* UIKit.framework */,
+				FC10AC3317656CA600682398 /* Foundation.framework */,
+				FC10AC3517656CA600682398 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC10AC3717656CA600682398 /* progUranai */ = {
+			isa = PBXGroup;
+			children = (
+				FC10AC4017656CA600682398 /* AppDelegate.h */,
+				FC10AC4117656CA600682398 /* AppDelegate.m */,
+				FC10AC4917656CA600682398 /* ViewController.h */,
+				FC10AC4A17656CA600682398 /* ViewController.m */,
+				FC10AC4C17656CA600682398 /* ViewController.xib */,
+				FC10AC3817656CA600682398 /* Supporting Files */,
+			);
+			path = progUranai;
+			sourceTree = "<group>";
+		};
+		FC10AC3817656CA600682398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC10AC3917656CA600682398 /* progUranai-Info.plist */,
+				FC10AC3A17656CA600682398 /* InfoPlist.strings */,
+				FC10AC3D17656CA600682398 /* main.m */,
+				FC10AC3F17656CA600682398 /* progUranai-Prefix.pch */,
+				FC10AC4317656CA600682398 /* Default.png */,
+				FC10AC4517656CA600682398 /* Default@2x.png */,
+				FC10AC4717656CA600682398 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC10AC2D17656CA600682398 /* progUranai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC10AC5117656CA600682398 /* Build configuration list for PBXNativeTarget "progUranai" */;
+			buildPhases = (
+				FC10AC2A17656CA600682398 /* Sources */,
+				FC10AC2B17656CA600682398 /* Frameworks */,
+				FC10AC2C17656CA600682398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = progUranai;
+			productName = progUranai;
+			productReference = FC10AC2E17656CA600682398 /* progUranai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC10AC2617656CA500682398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kazuyoshi kawakami";
+			};
+			buildConfigurationList = FC10AC2917656CA500682398 /* Build configuration list for PBXProject "progUranai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC10AC2517656CA500682398;
+			productRefGroup = FC10AC2F17656CA600682398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC10AC2D17656CA600682398 /* progUranai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC10AC2C17656CA600682398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC10AC3C17656CA600682398 /* InfoPlist.strings in Resources */,
+				FC10AC4417656CA600682398 /* Default.png in Resources */,
+				FC10AC4617656CA600682398 /* Default@2x.png in Resources */,
+				FC10AC4817656CA600682398 /* Default-568h@2x.png in Resources */,
+				FC10AC4E17656CA600682398 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC10AC2A17656CA600682398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC10AC3E17656CA600682398 /* main.m in Sources */,
+				FC10AC4217656CA600682398 /* AppDelegate.m in Sources */,
+				FC10AC4B17656CA600682398 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC10AC3A17656CA600682398 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC10AC3B17656CA600682398 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC10AC4C17656CA600682398 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC10AC4D17656CA600682398 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC10AC4F17656CA600682398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC10AC5017656CA600682398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC10AC5217656CA600682398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "progUranai/progUranai-Prefix.pch";
+				INFOPLIST_FILE = "progUranai/progUranai-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC10AC5317656CA600682398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "progUranai/progUranai-Prefix.pch";
+				INFOPLIST_FILE = "progUranai/progUranai-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC10AC2917656CA500682398 /* Build configuration list for PBXProject "progUranai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC10AC4F17656CA600682398 /* Debug */,
+				FC10AC5017656CA600682398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC10AC5117656CA600682398 /* Build configuration list for PBXNativeTarget "progUranai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC10AC5217656CA600682398 /* Debug */,
+				FC10AC5317656CA600682398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC10AC2617656CA500682398 /* Project object */;
+}
