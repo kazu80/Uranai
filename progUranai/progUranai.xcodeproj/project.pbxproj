@@ -18,6 +18,18 @@
 		FC10AC4817656CA600682398 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC4717656CA600682398 /* Default-568h@2x.png */; };
 		FC10AC4B17656CA600682398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10AC4A17656CA600682398 /* ViewController.m */; };
 		FC10AC4E17656CA600682398 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC4C17656CA600682398 /* ViewController.xib */; };
+		FC10AC6017656F8100682398 /* IC001.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5417656F8100682398 /* IC001.png */; };
+		FC10AC6117656F8100682398 /* IC002.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5517656F8100682398 /* IC002.png */; };
+		FC10AC6217656F8100682398 /* IC003.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5617656F8100682398 /* IC003.png */; };
+		FC10AC6317656F8100682398 /* IC004.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5717656F8100682398 /* IC004.png */; };
+		FC10AC6417656F8100682398 /* IC005.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5817656F8100682398 /* IC005.png */; };
+		FC10AC6517656F8100682398 /* IC006.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5917656F8100682398 /* IC006.png */; };
+		FC10AC6617656F8100682398 /* IC007.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5A17656F8100682398 /* IC007.png */; };
+		FC10AC6717656F8100682398 /* IC008.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5B17656F8100682398 /* IC008.png */; };
+		FC10AC6817656F8100682398 /* IC009.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5C17656F8100682398 /* IC009.png */; };
+		FC10AC6917656F8100682398 /* IC010.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5D17656F8100682398 /* IC010.png */; };
+		FC10AC6A17656F8100682398 /* IC011.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5E17656F8100682398 /* IC011.png */; };
+		FC10AC6B17656F8100682398 /* IC012.png in Resources */ = {isa = PBXBuildFile; fileRef = FC10AC5F17656F8100682398 /* IC012.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +49,18 @@
 		FC10AC4917656CA600682398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC10AC4A17656CA600682398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC10AC4D17656CA600682398 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FC10AC5417656F8100682398 /* IC001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC001.png; path = progUranai/IC001.png; sourceTree = "<group>"; };
+		FC10AC5517656F8100682398 /* IC002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC002.png; path = progUranai/IC002.png; sourceTree = "<group>"; };
+		FC10AC5617656F8100682398 /* IC003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC003.png; path = progUranai/IC003.png; sourceTree = "<group>"; };
+		FC10AC5717656F8100682398 /* IC004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC004.png; path = progUranai/IC004.png; sourceTree = "<group>"; };
+		FC10AC5817656F8100682398 /* IC005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC005.png; path = progUranai/IC005.png; sourceTree = "<group>"; };
+		FC10AC5917656F8100682398 /* IC006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC006.png; path = progUranai/IC006.png; sourceTree = "<group>"; };
+		FC10AC5A17656F8100682398 /* IC007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC007.png; path = progUranai/IC007.png; sourceTree = "<group>"; };
+		FC10AC5B17656F8100682398 /* IC008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC008.png; path = progUranai/IC008.png; sourceTree = "<group>"; };
+		FC10AC5C17656F8100682398 /* IC009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC009.png; path = progUranai/IC009.png; sourceTree = "<group>"; };
+		FC10AC5D17656F8100682398 /* IC010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC010.png; path = progUranai/IC010.png; sourceTree = "<group>"; };
+		FC10AC5E17656F8100682398 /* IC011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC011.png; path = progUranai/IC011.png; sourceTree = "<group>"; };
+		FC10AC5F17656F8100682398 /* IC012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IC012.png; path = progUranai/IC012.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 		FC10AC2517656CA500682398 = {
 			isa = PBXGroup;
 			children = (
+				FC10AC6D17656FE500682398 /* images */,
 				FC10AC3717656CA600682398 /* progUranai */,
 				FC10AC3017656CA600682398 /* Frameworks */,
 				FC10AC2F17656CA600682398 /* Products */,
@@ -105,6 +130,25 @@
 				FC10AC4717656CA600682398 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC10AC6D17656FE500682398 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC10AC5417656F8100682398 /* IC001.png */,
+				FC10AC5517656F8100682398 /* IC002.png */,
+				FC10AC5617656F8100682398 /* IC003.png */,
+				FC10AC5717656F8100682398 /* IC004.png */,
+				FC10AC5817656F8100682398 /* IC005.png */,
+				FC10AC5917656F8100682398 /* IC006.png */,
+				FC10AC5A17656F8100682398 /* IC007.png */,
+				FC10AC5B17656F8100682398 /* IC008.png */,
+				FC10AC5C17656F8100682398 /* IC009.png */,
+				FC10AC5D17656F8100682398 /* IC010.png */,
+				FC10AC5E17656F8100682398 /* IC011.png */,
+				FC10AC5F17656F8100682398 /* IC012.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +207,18 @@
 				FC10AC4617656CA600682398 /* Default@2x.png in Resources */,
 				FC10AC4817656CA600682398 /* Default-568h@2x.png in Resources */,
 				FC10AC4E17656CA600682398 /* ViewController.xib in Resources */,
+				FC10AC6017656F8100682398 /* IC001.png in Resources */,
+				FC10AC6117656F8100682398 /* IC002.png in Resources */,
+				FC10AC6217656F8100682398 /* IC003.png in Resources */,
+				FC10AC6317656F8100682398 /* IC004.png in Resources */,
+				FC10AC6417656F8100682398 /* IC005.png in Resources */,
+				FC10AC6517656F8100682398 /* IC006.png in Resources */,
+				FC10AC6617656F8100682398 /* IC007.png in Resources */,
+				FC10AC6717656F8100682398 /* IC008.png in Resources */,
+				FC10AC6817656F8100682398 /* IC009.png in Resources */,
+				FC10AC6917656F8100682398 /* IC010.png in Resources */,
+				FC10AC6A17656F8100682398 /* IC011.png in Resources */,
+				FC10AC6B17656F8100682398 /* IC012.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
